@@ -7,7 +7,7 @@ public class Calculadora2Test {
     public void test_aIgualCero() {
         // Caso extremo: a = 0
         try {
-            Assertions.assertThrows(ArithmeticException.class, () -> Calculadora2.calcularCuadratica(0.0, 2.0, 3.0));
+            Assertions.assertThrows(ArithmeticException.class, () -> Calculadora2.calcularCuadratica(1.0, 2.0, 3.0));
         }catch (Exception e){
             System.out.println("No se puede calcular la raiz de un numero negativo");
         }

@@ -10,12 +10,13 @@ public class Calculadora2 {
             raices[1] = raices[0];
             return raices;
         }
-        if (a == 0) {
+        try{
+            raices[0] = (-b + Math.sqrt(discriminante)) / (2 * a);
+            raices[1] = (-b - Math.sqrt(discriminante)) / (2 * a);
+
+        }catch (Exception e){
             throw new ArithmeticException("No se puede dividir por cero");
         }
-        
-        raices[0] = (-b + Math.sqrt(discriminante)) / (2 * a);
-        raices[1] = (-b - Math.sqrt(discriminante)) / (2 * a);
         return raices;
     }
 
