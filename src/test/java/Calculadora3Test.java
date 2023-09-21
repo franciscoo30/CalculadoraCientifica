@@ -1,81 +1,126 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
-class Calculadora3Test {
+public class Calculadora3Test {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularPerimetroCuadrado() {
-        int valorEsperado = 16;
-        int resultado = Calculadora3.calcularPerimetroCuadrado(4);
-        assertEquals(valorEsperado, resultado);
+        int valorEsperado1 = 16;
+        int resultado1 = Calculadora3.calcularPerimetroCuadrado(4);
+        assertEquals(valorEsperado1, resultado1);
+
+        int valorEsperado2 = 20;
+        int resultado2 = Calculadora3.calcularPerimetroCuadrado(5);
+        assertEquals(valorEsperado2, resultado2);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularAreaCuadrado() {
-        int valorEsperado = 25;
-        int resultado = Calculadora3.calcularAreaCuadrado(5);
-        assertEquals(valorEsperado, resultado);
+        int valorEsperado1 = 25;
+        int resultado1 = Calculadora3.calcularAreaCuadrado(5);
+        assertEquals(valorEsperado1, resultado1);
+
+        int valorEsperado2 = 49;
+        int resultado2 = Calculadora3.calcularAreaCuadrado(7);
+        assertEquals(valorEsperado2, resultado2);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularPerimetroRectangulo() {
-        int valorEsperado = 16;
-        int resultado = Calculadora3.calcularPerimetroRectangulo(4, 4);
-        assertEquals(valorEsperado, resultado);
+        int valorEsperado1 = 16;
+        int resultado1 = Calculadora3.calcularPerimetroRectangulo(4, 4);
+        assertEquals(valorEsperado1, resultado1);
+
+        int valorEsperado2 = 22;
+        int resultado2 = Calculadora3.calcularPerimetroRectangulo(5, 6);
+        assertEquals(valorEsperado2, resultado2);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularAreaRectangulo() {
-        int valorEsperado = 20;
-        int resultado = Calculadora3.calcularAreaRectangulo(4, 5);
-        assertEquals(valorEsperado, resultado);
+        int valorEsperado1 = 20;
+        int resultado1 = Calculadora3.calcularAreaRectangulo(4, 5);
+        assertEquals(valorEsperado1, resultado1);
+
+        int valorEsperado2 = 30;
+        int resultado2 = Calculadora3.calcularAreaRectangulo(3, 10);
+        assertEquals(valorEsperado2, resultado2);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularPerimetroCirculo() {
-        double valorEsperado = 31.41592653589793;
-        double resultado = Calculadora3.calcularPerimetroCirculo(5);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 31.41592653589793;
+        double resultado1 = Calculadora3.calcularPerimetroCirculo(5);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 62.83185307179587;
+        double resultado2 = Calculadora3.calcularPerimetroCirculo(10);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularAreaCirculo() {
-        double valorEsperado = 78.53981633974483;
-        double resultado = Calculadora3.calcularAreaCirculo(5);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 78.53981633974483;
+        double resultado1 = Calculadora3.calcularAreaCirculo(5);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 314.1592653589793;
+        double resultado2 = Calculadora3.calcularAreaCirculo(10);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularVolumenEsfera() {
-        double valorEsperado = 113.09733552923255;
-        double resultado = Calculadora3.calcularVolumenEsfera(3);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 113.09733552923255;
+        double resultado1 = Calculadora3.calcularVolumenEsfera(3);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 523.5987755982989;
+        double resultado2 = Calculadora3.calcularVolumenEsfera(5);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularPerimetroCubo() {
-        double valorEsperado = 24;
-        double resultado = Calculadora3.calcularPerimetroCubo(2);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 24;
+        double resultado1 = Calculadora3.calcularPerimetroCubo(2);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 48;
+        double resultado2 = Calculadora3.calcularPerimetroCubo(4);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularAreaCubo() {
-        double valorEsperado = 54;
-        double resultado = Calculadora3.calcularAreaCubo(3);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 54;
+        double resultado1 = Calculadora3.calcularAreaCubo(3);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 96;
+        double resultado2 = Calculadora3.calcularAreaCubo(4);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularVolumenCubo() {
-        double valorEsperado = 27;
-        double resultado = Calculadora3.calcularVolumenCubo(3);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 27;
+        double resultado1 = Calculadora3.calcularVolumenCubo(3);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 64;
+        double resultado2 = Calculadora3.calcularVolumenCubo(4);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void calcularVolumenCono() {
-        double valorEsperado = 25.132741228718345;
-        double resultado = Calculadora3.calcularVolumenCono(2, 2);
-        assertEquals(valorEsperado, resultado, 0.0001);
+        double valorEsperado1 = 25.132741228718345;
+        double resultado1 = Calculadora3.calcularVolumenCono(2, 2);
+        assertEquals(valorEsperado1, resultado1, 0.0001);
+
+        double valorEsperado2 = 37.69911184307752;
+        double resultado2 = Calculadora3.calcularVolumenCono(3, 4);
+        assertEquals(valorEsperado2, resultado2, 0.0001);
     }
 }
