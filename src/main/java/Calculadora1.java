@@ -1,4 +1,4 @@
-public class Calculadora {
+public class Calculadora1 {
     public static double sumar(double num1, double num2){
         return num1 + num2;
     }

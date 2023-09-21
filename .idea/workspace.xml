@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a7d279-daaa-4403-9348-53e2dcc88443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Calculadora2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Calculadora2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f6a7d279-daaa-4403-9348-53e2dcc88443" name="Changes" comment="Actividades 1, 2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculadora1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Calculadora1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "BrachDiego",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "E:/IdeaProjects/CalculadoraCientifica",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;BrachDiego&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/Ayudantia-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -72,7 +73,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Calculadora2Test">
+  <component name="RunManager">
+    <configuration name="Calculadora1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculadoraCientifica" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Calculadora1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calculadora2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculadoraCientifica" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Calculadora1Test" />
         <item itemvalue="JUnit.Calculadora2Test" />
         <item itemvalue="JUnit.Calculadora2Test.testCalcularCuadratica" />
       </list>
@@ -109,11 +120,28 @@
       <updated>1694607167348</updated>
       <workItem from="1694607168549" duration="793000" />
       <workItem from="1694607985708" duration="107000" />
-      <workItem from="1694608115521" duration="3109000" />
+      <workItem from="1694608115521" duration="3336000" />
+      <workItem from="1694660587073" duration="97000" />
+      <workItem from="1694661330626" duration="2158000" />
+      <workItem from="1694734433648" duration="1254000" />
+      <workItem from="1694797461844" duration="1207000" />
     </task>
+    <task id="LOCAL-00001" summary="Actividades 1, 2">
+      <option name="closed" value="true" />
+      <created>1694611398745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694611398745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actividades 1, 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividades 1, 2" />
   </component>
 </project>
